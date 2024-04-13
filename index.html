@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Vithkuqi:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="weather-container" class="weather-container">
+      <h2>Weather App</h2>
+      <input type="text" id="city" placeholder="Enter City" />
+      <button onclick="getWeather()">Search</button>
+      <img src="" id="weather-icon" alt="weather icon" />
+      <div id="temp-div"></div>
+      <div id="weather-info"></div>
+      <div id="date-time"></div>
+      <div id="hourly-forecast"></div>
+    </div>
+    <script  src="script.js"></script>
+  </body>
+</html>
